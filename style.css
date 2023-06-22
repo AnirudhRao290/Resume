@@ -1,0 +1,146 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+/* div{
+     border:2px solid #111; 
+} */
+.container {
+    /* border:5px solid #111; */
+    max-width: 700px;
+    height: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 0px;
+    border-radius: 10px 10px;
+    box-shadow: 0px 0px 50px #555;
+    display: flex; 
+    transition: 0.5s;
+}
+.container:hover{
+    box-shadow: 0px 0px 50px 1px #111;
+}
+.left{
+    width: 40%;
+    border-radius:  10px 0px 0px 10px ;
+
+    background-color: #334;
+    display:block;
+    color: #eee;
+    /* padding-left: 0%; */
+}
+.right{
+    width:60%;
+    display: block;
+    gap: 10px;
+    /* flex-direction: column; */
+    color: #111;
+    padding-left: 2%;
+    box-sizing: border-box;
+}
+.imga{
+    display: block;
+    padding: 10%;   
+}
+img{
+    margin-left: 20%;
+    
+    width:55%;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+.contact,.lang,.skills,.int{
+    margin-left: 15%;
+
+}
+/* .skills{
+    margin-left: 15%;
+
+}
+.lang{
+    margin-left: 15%;
+
+} */
+ul{
+    padding-left: 10%;
+
+}
+li{
+    padding: 1%;
+    font-size: smaller;
+}
+.certi>ul>li{
+    font-size: 2.2vh;
+    font-weight: 550;
+}
+.certi>ul{
+   padding-left: 6%;
+}
+span{
+    
+    margin-right:15%;
+    font-size: smaller;
+    
+}
+.proj>section>h5{
+    color:#666 ;
+    /* margin-top: 0.5%;
+    margin-bottom: 5%; */
+    margin:0.5% .5% 5%  ;
+    font-weight: 500;
+}
+
+
+
+
+.left > div >hr{
+    height: 0.03cm;
+     background-color: #fff;
+}
+.right > div >hr{
+    height: 0.032cm;
+     background-color: #111;
+     margin-right: 10%;
+}
+.edu>h5,h4{
+    margin: 0%;}
+.edu>section{
+    margin-bottom: 5%;
+    /* margin-left: 5%; */
+}
+
+h1{
+    margin-bottom: 0%;
+}
+h2 {
+    margin-bottom: 0px;
+    
+}
+h5{
+   margin-bottom: 2%;
+    margin-top:6%;
+    padding-left: 1%;
+}
+h6{
+    padding: 0px;
+    padding-left: 1%;
+    margin: 0px;
+}
+
+p {
+    color: #666;
+    margin: 1%;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section:last-child {
+    margin-bottom: 0;
+}
